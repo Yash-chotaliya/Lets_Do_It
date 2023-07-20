@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    android:background="@color/white"
+    tools:ignore="HardcodedText">
+
+    <EditText
+        android:id="@+id/task"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter Task Name"
+        android:backgroundTint="@color/black"
+        android:inputType="textAutoComplete"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:textColorHint="@color/hintTextColor"
+        android:gravity="center"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It should contains only a-z, A-Z, 0-9 and Whitespace"
+        android:textSize="15sp"
+        android:textColor="#FF0000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:backgroundTint="@color/textColor"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:backgroundTint="@color/textColor"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>
