@@ -19,6 +19,8 @@
             android:exported="false" />
         <activity
             android:name=".activities.Splash"
+            android:screenOrientation = "portrait"
+            tools:ignore="LockedOrientationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,15 +30,23 @@
         </activity>
         <activity
             android:name=".activities.homepage.MainPage"
+            android:screenOrientation = "portrait"
+            tools:ignore="LockedOrientationActivity"
             android:exported="false" />
         <activity
             android:name=".activities.register.SignUp2"
+            android:screenOrientation = "portrait"
+            tools:ignore="LockedOrientationActivity"
             android:exported="false" />
         <activity
             android:name=".activities.register.SignUp1"
+            android:screenOrientation = "portrait"
+            tools:ignore="LockedOrientationActivity"
             android:exported="false" />
         <activity
             android:name=".activities.register.SignIn"
+            android:screenOrientation = "portrait"
+            tools:ignore="LockedOrientationActivity"
             android:exported="false"/>
     </application>
 
