@@ -21,7 +21,7 @@
             android:textColor="@color/textColor"
             android:hint="Email"
             android:layout_marginTop="110dp"
-            android:textColorHint="@color/textColor"
+            android:textColorHint="@color/hintTextColor"
             android:backgroundTint="@color/textColor"
             android:padding="10dp"
             android:inputType="textEmailAddress"
@@ -64,9 +64,11 @@
         android:textSize="40sp"
         android:text="@string/app_name"
         android:layout_below="@+id/top"
-        android:textColor="@color/white"
+        android:layout_above="@id/bottom"
+        android:textColor="@color/app_name"
         android:gravity="center"
         android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
         android:layout_marginStart="85dp"/>
 
     <LinearLayout

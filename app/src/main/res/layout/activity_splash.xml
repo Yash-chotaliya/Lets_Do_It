@@ -8,14 +8,10 @@
     android:gravity="center"
     tools:context=".activities.Splash">
 
-    <TextView
-        android:layout_width="250dp"
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Lets\nDo\nIt"
-        android:textSize="60sp"
-        android:textColor="#B6B6B6"
-        android:textStyle="italic"
-        tools:ignore="ContentDescription" />
+        android:src="@drawable/app_logo"
+        android:contentDescription="app_logo"/>
 
 </LinearLayout>

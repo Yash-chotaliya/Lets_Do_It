@@ -17,7 +17,7 @@
         android:background="@color/background"
         app:menu="@menu/mainmenu"
         app:title="@string/app_name"
-        app:titleTextColor="@color/white" />
+        app:titleTextColor="@color/app_name" />
 
     <LinearLayout
         android:id="@+id/linelay"
@@ -36,7 +36,7 @@
             android:layout_margin="10dp"
             android:gravity="center"
             android:text="Username"
-            android:textColor="@color/white"
+            android:textColor="@color/app_name"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -45,7 +45,7 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
+        android:background="#D9D9D9"
         android:layout_below="@+id/linelay"
         android:layout_above="@+id/btmnav"
         android:layout_marginTop="30dp"
@@ -61,7 +61,7 @@
         android:layout_marginBottom="10dp"
         android:background="@drawable/btm_nav_back"
         app:menu="@menu/fragment_menu"
-        app:itemIconTint="#004C4E"
+        app:itemIconTint="#000000"
         android:visibility="visible" />
 
 </RelativeLayout>

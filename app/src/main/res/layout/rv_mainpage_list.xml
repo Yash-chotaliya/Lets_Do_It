@@ -13,7 +13,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/background">
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/taskname"
@@ -23,14 +23,14 @@
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
             android:text="Task 1"
-            android:textColor="@color/white"
+            android:textColor="@color/textColor"
             android:textSize="20sp" />
 
         <ImageButton
             android:id="@+id/isCompleted"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:backgroundTint="@color/background"
+            android:backgroundTint="@color/white"
             android:src="@drawable/red_button"
             android:layout_marginTop="18dp"
             android:layout_toStartOf="@+id/delete"
